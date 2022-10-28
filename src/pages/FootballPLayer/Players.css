@@ -1,0 +1,74 @@
+.filter{
+    height: 80px;
+    margin-top: 41px;
+    margin-left: 160px;
+    margin-right: 160px;
+    background: rgba(125, 125, 125, 0.75);
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+}
+
+.filter-seasons{
+    padding-top: 15px;
+    padding-left: 44px;
+    flex:1;
+}
+.filter-clubs{
+    padding-top: 15px;
+    padding-left: 44px;
+    flex:4;
+}
+.filter-return{
+    padding-top: 20px;
+    padding-left: 44px;
+    flex:2;
+}
+.txt-filter1{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    font-family:'Roboto';
+    font-style: normal;
+}
+.txt-filter2{
+    color: #44B454;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    font-family:'Roboto';
+    font-style: normal;
+}
+#return{
+    color: #ffffff;
+    font-weight: 10;
+    font-size: 20px;
+    font-family:'Roboto';
+    font-style: normal;
+}
+.header-list{
+    height: 50px;
+    margin: 21px 160px 0 160px;
+    padding: 10px;
+    background: #CDC9C9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #494747;
+    display: flex;
+}
+#title1{
+    flex:1;
+    padding-left: 30px;
+}
+#title2{
+    flex:1;
+    padding-left: 90px;
+
+}
+#title3{
+    flex:1;
+}
+
