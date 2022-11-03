@@ -1,0 +1,10 @@
+.round-info #match-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.round-info #match-result h4{
+    letter-spacing: 5px;
+    font-size: 27px;
+}
