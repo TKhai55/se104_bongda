@@ -1,0 +1,74 @@
+.table_team {
+    width: 85%;
+    height: 870px;
+    margin-left: 7.5%;
+    background-color: #545861;
+    border-radius: 0px 10px 10px 10px;
+    padding: 20px 3% 20px 3%;
+}
+
+.football_player_card{
+    background-color: #6F6F6F;
+    border-radius: 10px;
+    width: 280px;
+    height: 200px;
+}
+.img_football_player{
+    background-color: #979595;
+    
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_margin{
+    margin-top: 12px;
+}
+
+.main_content{
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.sub_content{
+    font-size: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+.img_player{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.main_information{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.nationality_info{
+    display: flex;
+}
+
+.img_nationality{
+    margin-right: 5px;
+}
+
+hr{
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.detail_football_player{
+    margin-top: 12px;
+    margin-left: 170px;
+    display: flex;
+    justify-content: space-around;
+}
