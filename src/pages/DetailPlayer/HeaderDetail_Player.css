@@ -25,7 +25,6 @@
 }
 .numberbig{
     flex:1;
-    font-size: 150px;
-    font-weight: 200;
-    padding: 30px 30px;
+    font-size: 135px;
+    font-weight: 550;
 }
