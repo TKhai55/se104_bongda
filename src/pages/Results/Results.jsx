@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faChevronUp} from '@fortawesome/free-solid-svg-icons'
 import './Results.css'
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+
 
 const rounds = ['Vòng 1', 'Vòng 2']
 
@@ -27,7 +29,7 @@ const Results = () => {
     }
 
     return (
-        <div>
+        <div className='result-main-wrapper'>
             <label htmlFor="rounds" id="round-select-label">Vòng đấu</label>
             <select name="rounds" id="round-select">
                 <option value="0" selected>Tất cả</option>
@@ -44,61 +46,70 @@ const Results = () => {
                                 <tr>
                                     <th>{round} / {rounds.length}</th>
                                 </tr>
-                                <tr className='round-info'>
-                                    <td className='signature'>
-                                        <img className="club-logo club-logo-1" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Hoang_Anh_Gia_Lai_FC_logo.svg/1200px-Hoang_Anh_Gia_Lai_FC_logo.svg.png" alt="Hoang Anh Gia Lai Logo" name="logo-1" />
-                                        <label htmlFor="logo-1" id="logo-1">Hoang Anh Gia Lai</label>
-                                    </td>
-                                    <td id="match-result">
-                                        <h4>2-1</h4>
-                                    </td>
-                                    <td className='signature'>
-                                        <img className="club-logo club-logo-2" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/21/H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg/1200px-H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg.png" alt="Hai Phong Logo" name="logo-2"/>
-                                        <label htmlFor="logo-2" id="logo-2">Hai Phong</label>
-                                    </td>
-                                </tr>
+                                <Link to='/results/detailresults'>
+                                    <tr className='round-info'>
+                                        <td className='signature'>
+                                            <img className="club-logo club-logo-1" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Hoang_Anh_Gia_Lai_FC_logo.svg/1200px-Hoang_Anh_Gia_Lai_FC_logo.svg.png" alt="Hoang Anh Gia Lai Logo" name="logo-1" />
+                                            <label htmlFor="logo-1" id="logo-1">Hoang Anh Gia Lai</label>
+                                        </td>
+                                        <td id="match-result">
+                                            <h4>2-1</h4>
+                                        </td>
+                                        <td className='signature'>
+                                            <img className="club-logo club-logo-2" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/21/H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg/1200px-H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg.png" alt="Hai Phong Logo" name="logo-2"/>
+                                            <label htmlFor="logo-2" id="logo-2">Hai Phong</label>
+                                        </td>
+                                    </tr>
+                                </Link>
 
-                                <tr className='round-info'>
-                                    <td className='signature'>
-                                        <img className="club-logo club-logo-1" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Hoang_Anh_Gia_Lai_FC_logo.svg/1200px-Hoang_Anh_Gia_Lai_FC_logo.svg.png" alt="Hoang Anh Gia Lai Logo" name="logo-1" />
-                                        <label htmlFor="logo-1" id="logo-1">Hoang Anh Gia Lai</label>
-                                    </td>
-                                    <td id="match-result">
-                                        <h4>2-1</h4>
-                                    </td>
-                                    <td className='signature'>
-                                        <img className="club-logo club-logo-2" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/21/H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg/1200px-H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg.png" alt="Hai Phong Logo" name="logo-2"/>
-                                        <label htmlFor="logo-2" id="logo-2">Hai Phong</label>
-                                    </td>
-                                </tr>
+                                <Link to='/results/detailresults'>
+                                    <tr className='round-info'>
+                                        <td className='signature'>
+                                            <img className="club-logo club-logo-1" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Hoang_Anh_Gia_Lai_FC_logo.svg/1200px-Hoang_Anh_Gia_Lai_FC_logo.svg.png" alt="Hoang Anh Gia Lai Logo" name="logo-1" />
+                                            <label htmlFor="logo-1" id="logo-1">Hoang Anh Gia Lai</label>
+                                        </td>
+                                        <td id="match-result">
+                                            <h4>2-1</h4>
+                                        </td>
+                                        <td className='signature'>
+                                            <img className="club-logo club-logo-2" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/21/H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg/1200px-H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg.png" alt="Hai Phong Logo" name="logo-2"/>
+                                            <label htmlFor="logo-2" id="logo-2">Hai Phong</label>
+                                        </td>
+                                    </tr>
+                                </Link>
+                                
+                                <Link to='/results/detailresults'>
+                                    <tr className='round-info'>
+                                        <td className='signature'>
+                                            <img className="club-logo club-logo-1" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Hoang_Anh_Gia_Lai_FC_logo.svg/1200px-Hoang_Anh_Gia_Lai_FC_logo.svg.png" alt="Hoang Anh Gia Lai Logo" name="logo-1" />
+                                            <label htmlFor="logo-1" id="logo-1">Hoang Anh Gia Lai</label>
+                                        </td>
+                                        <td id="match-result">
+                                            <h4>2-1</h4>
+                                        </td>
+                                        <td className='signature'>
+                                            <img className="club-logo club-logo-2" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/21/H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg/1200px-H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg.png" alt="Hai Phong Logo" name="logo-2"/>
+                                            <label htmlFor="logo-2" id="logo-2">Hai Phong</label>
+                                        </td>
+                                    </tr>
+                                </Link>
 
-                                <tr className='round-info'>
-                                    <td className='signature'>
-                                        <img className="club-logo club-logo-1" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Hoang_Anh_Gia_Lai_FC_logo.svg/1200px-Hoang_Anh_Gia_Lai_FC_logo.svg.png" alt="Hoang Anh Gia Lai Logo" name="logo-1" />
-                                        <label htmlFor="logo-1" id="logo-1">Hoang Anh Gia Lai</label>
-                                    </td>
-                                    <td id="match-result">
-                                        <h4>2-1</h4>
-                                    </td>
-                                    <td className='signature'>
-                                        <img className="club-logo club-logo-2" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/21/H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg/1200px-H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg.png" alt="Hai Phong Logo" name="logo-2"/>
-                                        <label htmlFor="logo-2" id="logo-2">Hai Phong</label>
-                                    </td>
-                                </tr>
 
-                                <tr className='round-info'>
-                                    <td className='signature'>
-                                        <img className="club-logo club-logo-1" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Hoang_Anh_Gia_Lai_FC_logo.svg/1200px-Hoang_Anh_Gia_Lai_FC_logo.svg.png" alt="Hoang Anh Gia Lai Logo" name="logo-1" />
-                                        <label htmlFor="logo-1" id="logo-1">Hoang Anh Gia Lai</label>
-                                    </td>
-                                    <td id="match-result">
-                                        <h4>2-1</h4>
-                                    </td>
-                                    <td className='signature'>
-                                        <img className="club-logo club-logo-2" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/21/H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg/1200px-H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg.png" alt="Hai Phong Logo" name="logo-2"/>
-                                        <label htmlFor="logo-2" id="logo-2">Hai Phong</label>
-                                    </td>
-                                </tr>
+                                <Link to='/results/detailresults'>
+                                    <tr className='round-info'>
+                                        <td className='signature'>
+                                            <img className="club-logo club-logo-1" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Hoang_Anh_Gia_Lai_FC_logo.svg/1200px-Hoang_Anh_Gia_Lai_FC_logo.svg.png" alt="Hoang Anh Gia Lai Logo" name="logo-1" />
+                                            <label htmlFor="logo-1" id="logo-1">Hoang Anh Gia Lai</label>
+                                        </td>
+                                        <td id="match-result">
+                                            <h4>2-1</h4>
+                                        </td>
+                                        <td className='signature'>
+                                            <img className="club-logo club-logo-2" src="https://upload.wikimedia.org/wikipedia/vi/thumb/2/21/H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg/1200px-H%E1%BA%A3i_Ph%C3%B2ng_FC_2021.svg.png" alt="Hai Phong Logo" name="logo-2"/>
+                                            <label htmlFor="logo-2" id="logo-2">Hai Phong</label>
+                                        </td>
+                                    </tr>
+                                </Link>
                             </table>
                         )
                     })

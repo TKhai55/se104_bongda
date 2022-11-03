@@ -31,7 +31,7 @@ const Fixtures = () => {
     }
 
     return (
-        <div>
+        <div className='fixture-main-wrapper'>
             <label htmlFor="rounds" id="round-select-label">Vòng đấu</label>
             <select name="rounds" id="round-select">
                 <option value="0" selected>Tất cả</option>
