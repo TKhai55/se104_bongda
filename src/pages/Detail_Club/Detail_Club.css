@@ -1,0 +1,55 @@
+.introduction_club {
+    height: 200px;
+    width: 85%;
+    background-color: #ECDC4D;
+    margin-left: 7.5%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_club {
+    height: 150px;
+    width: 200px;
+    object-fit: contain;
+    margin-top: 25px;
+}
+
+.title {
+    margin-top: 50px;
+    max-width: 250px;
+}
+
+.name_club {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.name_stadium {
+    margin-top: 5px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.button_group {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 7%;
+}
+
+.button {
+    background-color: #707170;
+    text-align: center;
+    width: 111px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px 10px 0px 0px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #B8B8B8;
+}

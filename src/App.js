@@ -1,13 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 import "./App.css"
 import Header from "./common/header/Header";
-import Home from './pages/Home';
-import Fixtures from './pages/Fixtures';
-import Results from './pages/Results';
+import Home from './pages/Home/Home';
+import Fixtures from './pages/Fixtures/Fixtures';
+import Results from './pages/Results/Results';
 import Player from './pages/Player';
-import Ranking from './pages/Ranking';
+import Ranking from './pages/Ranking/Ranking';
 import Coach from './pages/Coach';
 import Club from './pages/club/Club';
+
 
 
 
