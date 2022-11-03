@@ -1,4 +1,4 @@
-.header{
+.header_detailplayer{
     background-color: #ECDC4D;
     width: auto;
     height: 200px;
@@ -18,8 +18,14 @@
     font-weight: bold;
     padding-top: 60px;
 }
-.detail_coach_role{
+.detail_player_role{
     font-weight: 550;
     font-size: 22px;
     padding-top: 15px
+}
+.numberbig{
+    flex:1;
+    font-size: 150px;
+    font-weight: 200;
+    padding: 30px 30px;
 }

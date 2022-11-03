@@ -1,12 +1,12 @@
 import React from 'react'
-import './Header.css'
+import './HeaderDetail_Player.css'
 import cp from '../images/image 10.png'
 import hagl from '../images/hagl.png'
 
 
 export default function Header() {
   return (
-    <div className='header'>
+    <div className='header_detailplayer'>
     <div className='img1'>
         <img src={hagl} alt='hagl' style={{paddingTop:'100px'}} width='60px' height='170px' className='img' />
     </div>
