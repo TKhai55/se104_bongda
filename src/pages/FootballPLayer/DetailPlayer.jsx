@@ -1,7 +1,6 @@
 import React from 'react'
 import './DetailPlayer.css'
-import cp from './images/image 10.png'
-
+import cp from '../images/image 10.png'
 export default function DetailPlayer() {
   return (
     <div>
@@ -11,7 +10,7 @@ export default function DetailPlayer() {
             <p className='position'>Tiền Đạo</p>
             <p className='club'>Hoàng Anh Gia Lai</p>
             <br/>
-        </div>   
+        </div>
     </div>
     
   )

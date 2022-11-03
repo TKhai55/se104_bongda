@@ -1,11 +1,11 @@
 import React from 'react'
 import './DetailCoach.css'
-import Kiatisuk from './images/Kiatisuk.png'
+import Kiatisuk from '../images/Kiatisuk.png'
 
 export default function DetailCoach() {
   return (
     <div>
-        <div className='list-Player'>
+        <div className='list-coach'>
             <img src={Kiatisuk} alt='a' width={118.15} height={80}/>
             <p className='name'>  Nguyễn Công Phượng</p>
             <p className='club'>Hoàng Anh Gia Lai</p>

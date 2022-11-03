@@ -1,0 +1,62 @@
+.content{
+    display: flex;
+    color: #ffffff;
+    font-size: 18px;
+    height: fit-content;
+    width: auto;
+}
+.presentSeason{
+    flex:1;
+    background-color: #545861;
+    border-radius: 10px;
+    margin: 100px 0px 0px 30px;
+    padding-top: 10px;
+    height: 150px;
+}
+#titleSeason{
+    text-align: center;
+
+}
+.contentSeason{
+    display: flex;
+    padding: 10px;
+}
+.index{
+    flex:3;
+    color:#DAD3D3;
+}
+.quantity{
+    text-align: center;
+    flex:1;
+}
+.information{
+    flex:5;
+    background: #545861;
+    border-radius: 10px;
+    margin: 40px 40px 0px 30px;
+    padding-right: 20px;
+}
+.person{
+    display: flex;
+    background-color: rgba(118, 123, 134, 0.75);
+    margin: 10px 0 10px 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.quoctich{
+    flex:3;
+    text-align: left;
+    color:#DAD3D3;
+}.noidung{
+    text-align: right;
+    flex:1;
+}
+.pipe{
+    flex:0.5;
+    text-align: right;
+}
+.styletitle{
+    padding: 20px 30px;
+    font-size: 28px;
+    font-weight: 600;
+}

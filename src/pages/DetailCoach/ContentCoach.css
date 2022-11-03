@@ -1,0 +1,41 @@
+.content1{
+    display: flex;
+    color: #ffffff;
+    font-size: 18px;
+    height: fit-content;
+    width: auto;
+    
+}
+.information1{
+    flex:5;
+    background: #545861;
+    border-radius: 10px;
+    margin: 40px 40px 0px 30px;
+    padding-right: 20px;
+    height: fit-content;
+}
+.person1{
+    display: flex;
+    background-color: rgba(118, 123, 134, 0.75);
+    margin: 0px 0 40px 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.quoctich1{
+    flex:3;
+    text-align: left;
+    color:#DAD3D3;
+}.noidung1{
+    text-align: right;
+    flex:1;
+}
+.pipe1{
+    flex:0.5;
+    text-align: right;
+}
+.styletitle2{
+    padding: 20px 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,31 @@
+.header{
+    background-color: #ECDC4D;
+    width: auto;
+    height: 200px;
+    padding:20px 20px 0px 20px;
+    display: flex;
+    font-family:'Roboto';
+}
+.img1{
+    flex:1;
+}
+.img2{
+    flex:2;
+}
+.info{
+    flex:10;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+.detail_player_role{
+    font-weight: 550;
+    font-size: 22px;
+    padding-top: 15px
+}
+.numberbig{
+    flex:1;
+    font-size: 150px;
+    font-weight: 200;
+    padding: 30px 30px;
+}

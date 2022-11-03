@@ -1,29 +1,19 @@
 import React from 'react'
-import { FaCaretDown} from 'react-icons/fa'
-import { FiRotateCcw} from 'react-icons/fi'
+import {FaSearch} from 'react-icons/fa'
 import './Coach.css'
 
 
 export default function Coachs() {
   return (
     <div>
-      <div className='filter'>
-        <div className='filter-seasons'>
-            <p className='txt-filter1'>Mùa giải </p>
-            <p className='txt-filter2'>2022 <FaCaretDown/> </p>
-        </div>
-        <div className='filter-clubs'>
-            <p className='txt-filter1'>Câu lạc bộ </p>
-            <p className='txt-filter2'>Tất cả <FaCaretDown/> </p>
-        </div>
-        <div className='filter-return'>
-           <p id='return'> <FiRotateCcw size={26}/> Khôi phục mặc định </p>
-        </div>
+      <div className='filter_coach'>
+        <p className='filter_coach_textarea'>a</p>
+        <FaSearch className='filter_coach_icon' size={28}/>
       </div>
-      <div className='header-list'>
-        <p id='title1'>Huấn luyện viên</p>
-        <p id='title2'>Câu lạc bộ</p>
-        <p id='title3'>Quốc tịch</p>
+      <div className='header-list_coach'>
+        <p id='title1_coach'>Huấn luyện viên</p>
+        <p id='title2_coach'>Câu lạc bộ</p>
+        <p id='title3_coach'>Quốc tịch</p>
       </div>
     </div>
     
