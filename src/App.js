@@ -5,9 +5,9 @@ import Home from './pages/Home';
 import Fixtures from './pages/Fixtures';
 import Results from './pages/Results';
 import Player from './pages/Player';
-import Club from './pages/Club';
 import Ranking from './pages/Ranking';
 import Coach from './pages/Coach';
+import Club from './pages/club/Club';
 
 
 
@@ -23,9 +23,7 @@ function App() {
         <Route path='/club' element={<Club />} />
         <Route path='/player' element={<Player />} />
         <Route path='/coach' element={<Coach />} />
-
       </Routes>
-
     </div>
   );
 }

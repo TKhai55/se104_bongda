@@ -1,0 +1,42 @@
+.table_schedule {
+    width: 85%;
+    height: 870px;
+    margin-left: 7.5%;
+    background-color: #545861;
+    border-radius: 0px 10px 10px 10px;
+    padding: 20px 3% 20px 3%;
+
+}
+
+.schedule{
+    height: 100px;
+    background-color: #979595;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team{
+    display: flex;
+}
+
+.text_team{
+    font-size: 24px;
+    max-width: 190px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.date{
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.hour{
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 7px;
+}
