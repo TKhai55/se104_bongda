@@ -1,0 +1,36 @@
+.player-card-main-wrapper {
+    color: white;
+    width: 40vw;
+    height: 6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.player-card-main-wrapper .player-card-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    user-select: none;
+}
+
+.player-card-main-wrapper .player-card-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.player-card-main-wrapper .player-card-image .player-image {
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    margin-left: 2vw;
+    border-radius: 5px;
+}
+
+.player-card-main-wrapper .player-card-image .player-number {
+    margin-left: 1vw;
+    font-size: 20px;
+    user-select: none;
+}

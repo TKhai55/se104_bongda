@@ -2,12 +2,13 @@ import { Routes, Route } from 'react-router-dom'
 import "./App.css"
 import Header from "./common/header/Header";
 import Home from './pages/Home';
-import Fixtures from './pages/Fixtures';
-import Results from './pages/Results';
+import Fixtures from './pages/Fixtures/Fixtures';
+import Results from './pages/Results/Results';
 import Player from './pages/Player';
-import Club from './pages/Club';
+import Club from './pages/Club/Club';
 import Ranking from './pages/Ranking';
 import Coach from './pages/Coach';
+import DetailFixtures from './pages/DetailFixtures/DetailFixtures';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/club' element={<Club />} />
         <Route path='/player' element={<Player />} />
         <Route path='/coach' element={<Coach />} />
+        <Route path='/fixtures/detailfixtures'  element={<DetailFixtures />} />
 
       </Routes>
 
