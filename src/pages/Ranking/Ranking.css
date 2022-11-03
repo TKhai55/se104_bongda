@@ -1,0 +1,132 @@
+.Ranking{
+    margin-top: 8.5vh;
+    min-height: 60vh;
+    background-color: #404144;
+    display: flex;
+    
+}
+.Ranking .ranking_table{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+.Ranking .club-information {
+    width: 84vw;
+    background-color: transparent;
+    margin-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    box-shadow: 5px 10px 10px 5px #383A3F;
+
+}
+
+.Ranking .club-information-header {
+    font-weight: bold;
+    background-color: #cdc9c9;
+    height: 6vh;
+    border-radius: 5px 5px 0 0;
+}
+
+.Ranking .club-information .club-information-header td:first-child {
+    width: 30vw;
+    line-height: 6vh;
+    padding-left: 2vw;
+}
+
+.Ranking .club-information .club-information-header .normal{
+    width: 8vw;
+    text-align: center;
+    line-height: 6vh;
+}
+
+
+.Ranking .club-information .club-information-detail {
+    background-color: #4a4d55;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Ranking .club-information .club-information-detail .club-information-detail-wrapper {
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+.Ranking .club-information .club-information-detail .club-name {
+    margin-left: 1vw;
+    text-align: left;
+    position: absolute;
+    left: 3vw;
+    padding-top: 1vh;
+}
+
+.Ranking .club-information .club-information-detail .club-fought {
+    margin-left: 10em;
+    text-align: left;
+    position: absolute;
+    left: 18.5vw;
+    padding-top: 1vh;
+}
+.Ranking .club-information .club-information-detail .club-won {
+    margin-left: 10em;
+    text-align: left;
+    position: absolute;
+    left: 25.8vw;
+    padding-top: 1vh;
+}
+.Ranking .club-information .club-information-detail .club-draw {
+    margin-left: 10em;
+    text-align: left;
+    position: absolute;
+    left: 33vw;
+    padding-top: 1vh;
+}
+.Ranking .club-information .club-information-detail .club-lost {
+    margin-left: 10em;
+    text-align: left;
+    position: absolute;
+    left: 40.5vw;
+    padding-top: 1vh;
+}
+.Ranking .club-information .club-information-detail .club-score {
+    margin-left: 10em;
+    text-align: left;
+    position: absolute;
+    left: 47.5vw;
+    padding-top: 1vh;
+}
+.Ranking .club-information .club-information-detail .club-conceded {
+    margin-left: 10em;
+    text-align: left;
+    position: absolute;
+    left: 54.8vw;
+    padding-top: 1vh;
+}
+.Ranking .club-information .club-information-detail .club-difference {
+    margin-left: 10em;
+    text-align: left;
+    position: absolute;
+    left: 62vw;
+    padding-top: 1vh;
+}
+.Ranking .club-information .club-information-detail .club-point {
+    margin-left: 10em;
+    text-align: left;
+    position: absolute;
+    left: 69vw;
+    padding-top: 1vh;
+}
+
+.Ranking .club-information .club-information-detail .team-logo {
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    left: 2vw;
+    margin-top: 1vh;
+}
+.Ranking p {
+    padding: 0 0.5rem;
+}
+
+
