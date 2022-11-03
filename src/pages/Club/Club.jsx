@@ -129,7 +129,7 @@ const stadiums = [
 
 const Club = () => {
     return (
-        <div>
+        <div className='club-main-wrapper'>
             <div className="search-bar-wrapper">
                 <div className="search-bar">
                     <input className="search-area" type="text" placeholder='Nhập tên câu lạc bộ muốn tìm'/>
