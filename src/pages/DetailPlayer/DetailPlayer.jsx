@@ -1,7 +1,7 @@
 import React from 'react'
-import './styles/DetailPlayer.css'
-import Header from './DetailPlayer/Header'
-import ContentPlayer from './DetailPlayer/ContentPlayer'
+import './DetailPlayer.css'
+import Header from './Header'
+import ContentPlayer from './ContentPlayer'
 
 
 export default function DetailPlayer() {

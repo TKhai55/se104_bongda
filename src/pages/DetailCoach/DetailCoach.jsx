@@ -1,7 +1,7 @@
 import React from 'react'
-import './styles/DetailCoach.css'
-import Header from './DetailCoach/Header'
-import ContentCoach from './DetailCoach/ContentCoach'
+import './DetailCoach.css'
+import Header from './Header'
+import ContentCoach from './ContentCoach'
 
 
 export default function DetailCoach() {

@@ -8,8 +8,8 @@ import Player from './pages/Player';
 import Club from './pages/Club';
 import Ranking from './pages/Ranking';
 import Coach from './pages/Coach';
-import DetailCoach from './pages/DetailCoach.jsx';
-import DetailPlayer from './pages/DetailPlayer.jsx';
+import DetailCoach from './pages/DetailCoach/DetailCoach.jsx';
+import DetailPlayer from './pages/DetailPlayer/DetailPlayer.jsx';
 
 function App() {
   return (
