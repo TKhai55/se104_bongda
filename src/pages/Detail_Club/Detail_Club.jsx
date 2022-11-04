@@ -10,7 +10,7 @@ import Result from './Result';
 const Detail_Club = () => {
     const [active, setActive] = useState('overview');
     return (
-        <div className='container'>
+        <div className='club_container'>
             <div className='introduction_club'>
                 <img className='logo_club' src={logo_club} alt='' />
                 <div className='title'>

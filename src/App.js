@@ -9,7 +9,7 @@ import Player from './pages/Player';
 import Ranking from './pages/Ranking/Ranking';
 import Coach from './pages/Coach';
 import Club from './pages/club/Club';
-
+import Detail_Club from "./pages/Detail_Club/Detail_Club";
 
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route path='/fixtures' element={<Fixtures />} />
         <Route path='/results' element={<Results />} />
         <Route path='/ranking' element={<Ranking />} />
-        <Route path='/club' element={<Club />} />
+        <Route path='/club' element={<Detail_Club />} />
         <Route path='/player' element={<Player />} />
         <Route path='/coach' element={<Coach />} />
       </Routes>

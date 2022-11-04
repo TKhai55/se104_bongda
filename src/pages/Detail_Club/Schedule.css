@@ -8,7 +8,7 @@
 
 }
 
-.schedule{
+.table_schedule .schedule{
     height: 100px;
     background-color: #979595;
     border-radius: 10px;
@@ -17,11 +17,11 @@
     justify-content: space-between;
 }
 
-.team{
+.table_schedule .team{
     display: flex;
 }
 
-.text_team{
+.table_schedule .text_team{
     font-size: 24px;
     max-width: 190px;
     color: #ffffff;
@@ -29,13 +29,13 @@
     margin-top: 20px;
 }
 
-.date{
+.table_schedule .date{
     font-size: 32px;
     color: #ffffff;
     font-weight: bold;
 }
 
-.hour{
+.table_schedule .hour{
     font-size: 24px;
     color: #ffffff;
     margin-left: 7px;

@@ -1,3 +1,7 @@
+.club_container{
+    margin-top: 90px;
+}
+
 .introduction_club {
     height: 200px;
     width: 85%;
@@ -8,38 +12,38 @@
     justify-content: space-between;
 }
 
-.logo_club {
+.introduction_club .logo_club {
     height: 150px;
     width: 200px;
     object-fit: contain;
     margin-top: 25px;
 }
 
-.title {
+.introduction_club .title {
     margin-top: 50px;
     max-width: 250px;
 }
 
-.name_club {
-    font-size: 28px;
+.introduction_club .name_club {
+    font-size: 20px;
     font-weight: 600;
     color: #ffffff;
 }
 
-.name_stadium {
+.introduction_club .name_stadium {
     margin-top: 5px;
-    font-size: 24px;
+    font-size: 18px;
     color: #ffffff;
     text-align: center;
 }
 
-.button_group {
+ .club_container .button_group {
     margin-top: 40px;
     display: flex;
     margin-left: 7%;
 }
 
-.button {
+ .club_container .button {
     background-color: #707170;
     text-align: center;
     width: 111px;
@@ -50,6 +54,6 @@
     margin-left: 10px;
 }
 
-.button:hover {
+.club_container .button:hover {
     background-color: #B8B8B8;
 }
