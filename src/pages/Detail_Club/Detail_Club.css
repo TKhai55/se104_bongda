@@ -1,5 +1,6 @@
-.club_container{
-    margin-top: 90px;
+.club_container {
+    margin-top: 12vh;
+    margin-bottom: 5vh;
 }
 
 .introduction_club {
@@ -56,4 +57,11 @@
 
 .club_container .button:hover {
     background-color: #B8B8B8;
+    color: black;
+}
+
+
+.button:focus {
+    background-color: #B8B8B8;
+    color: black;
 }

@@ -23,16 +23,16 @@ const Detail_Club = () => {
                 </div>
             </div>
             <div className='button_group'>
-                <div className='button' onClick={() => setActive('overview')}>
+                <div className='button' tabIndex='0' onClick={() => setActive('overview')}>
                     Tổng quan
                 </div>
-                <div className='button' onClick={() => setActive('team')}>
+                <div className='button' tabIndex='1' onClick={() => setActive('team')}>
                     Đội hình
                 </div>
-                <div className='button' onClick={() => setActive('schedule')}>
+                <div className='button' tabIndex='2' onClick={() => setActive('schedule')}>
                     Lịch thi đấu
                 </div>
-                <div className='button' onClick={() => setActive('result')}>
+                <div className='button' tabIndex='3' onClick={() => setActive('result')}>
                     Kết quả
                 </div>
             </div>
