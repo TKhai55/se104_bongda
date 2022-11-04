@@ -2,6 +2,7 @@ import React from 'react'
 import './Club.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faChevronRight} from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 
 const stadiums = [
@@ -145,14 +146,16 @@ const Club = () => {
                     {
                         stadiums.map(stadium => {
                             return (
-                                <tr className='stadium-information-detail'>
-                                    <div className='stadium-information-detail-wrapper'>
-                                        <td><img src={stadium.logo} alt={stadium.name} className="team-logo"/></td>
-                                        <td className='team-name'>{stadium.team}</td>
-                                        <td className='stadium-name'>{stadium.name}</td>
-                                        <td className='showmore-button'>Chi tiết <FontAwesomeIcon icon={faChevronRight}/></td>
-                                    </div>
-                                </tr>
+                                <Link to='/club/detailclub'>
+                                    <tr className='stadium-information-detail'>
+                                        <div className='stadium-information-detail-wrapper'>
+                                            <td><img src={stadium.logo} alt={stadium.name} className="team-logo"/></td>
+                                            <td className='team-name'>{stadium.team}</td>
+                                            <td className='stadium-name'>{stadium.name}</td>
+                                            <td className='showmore-button'>Chi tiết <FontAwesomeIcon icon={faChevronRight}/></td>
+                                        </div>
+                                    </tr>
+                                </Link>
                             )
                         })
                     }

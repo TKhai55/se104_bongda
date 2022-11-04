@@ -10,7 +10,7 @@ import Result from './Result';
 const Detail_Club = () => {
     const [active, setActive] = useState('overview');
     return (
-        <div className='container'>
+        <div className='club_container'>
             <div className='introduction_club'>
                 <img className='logo_club' src={logo_club} alt='' />
                 <div className='title'>
@@ -23,16 +23,16 @@ const Detail_Club = () => {
                 </div>
             </div>
             <div className='button_group'>
-                <div className='button' onClick={() => setActive('overview')}>
+                <div className='button' tabIndex='0' onClick={() => setActive('overview')}>
                     Tổng quan
                 </div>
-                <div className='button' onClick={() => setActive('team')}>
+                <div className='button' tabIndex='1' onClick={() => setActive('team')}>
                     Đội hình
                 </div>
-                <div className='button' onClick={() => setActive('schedule')}>
+                <div className='button' tabIndex='2' onClick={() => setActive('schedule')}>
                     Lịch thi đấu
                 </div>
-                <div className='button' onClick={() => setActive('result')}>
+                <div className='button' tabIndex='3' onClick={() => setActive('result')}>
                     Kết quả
                 </div>
             </div>
