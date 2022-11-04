@@ -7,7 +7,7 @@
     padding: 20px 3% 20px 3%;
 }
 
-.result{
+.table_result .result{
     height: 100px;
     background-color: #979595;
     border-radius: 10px;
@@ -16,7 +16,19 @@
     justify-content: space-between;
 }
 
-.score{
+.table_result .team {
+    display: flex;
+}
+
+.table_result .text_team {
+    font-size: 24px;
+    max-width: 190px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.table_result .score{
     margin-top: 15px;
     font-size: 32px;
     color: #ffffff;

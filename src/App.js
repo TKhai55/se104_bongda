@@ -15,6 +15,7 @@ import DetailClub from './pages/Detail_Club/Detail_Club';
 import DetailPlayer from './pages/DetailPlayer/DetailPlayer'
 import SignIn from './pages/Sign_In/SignIn'
 
+
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,7 @@ function App() {
         <Route path='/fixtures' element={<Fixtures />} />
         <Route path='/results' element={<Results />} />
         <Route path='/ranking' element={<Ranking />} />
-        <Route path='/club' element={<Club />} />
+        <Route path='/club' element={<Detail_Club />} />
         <Route path='/player' element={<Player />} />
         <Route path='/coach' element={<Coach />} />
         <Route path='/signin' element={<SignIn />} />
