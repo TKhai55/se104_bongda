@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import "./App.css"
 import Header from "./common/header/Header";
+import Footer from "./common/footer/Footer";
 import Home from './pages/Home/Home';
 import Fixtures from './pages/Fixtures/Fixtures';
 import Results from './pages/Results/Results';
@@ -25,6 +26,8 @@ function App() {
         <Route path='/player' element={<Player />} />
         <Route path='/coach' element={<Coach />} />
       </Routes>
+      <Footer />
+
     </div>
   );
 }
