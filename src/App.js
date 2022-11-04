@@ -8,7 +8,7 @@ import Results from './pages/Results/Results';
 import Player from './pages/FootballPLayer/Player';
 import Ranking from './pages/Ranking/Ranking';
 import Coach from './pages/CoachInfo/Coach';
-import Club from './pages/Club/Club1';
+import Club from './pages/Club/Club';
 import DetailFixtures from './pages/DetailFixtures/DetailFixtures'
 import DetailResult from './pages/Detail_Result/Detail_Result';
 import DetailClub from './pages/Detail_Club/Detail_Club';
