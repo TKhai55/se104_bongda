@@ -1,14 +1,15 @@
 import React from 'react'
-import {FaSearch} from 'react-icons/fa'
-import './Coach.css'
+import './Coachs.css'
 
 
 export default function Coachs() {
   return (
     <div>
-      <div className='filter_coach'>
-        <p className='filter_coach_textarea'>a</p>
-        <FaSearch className='filter_coach_icon' size={28}/>
+      <div className="search-bar-wrapper">
+        <div className="search-bar">
+            <input className="search-area" type="text" placeholder='Nhập tên câu lạc bộ muốn tìm'/>
+            <button className="search-btn"></button>
+        </div>
       </div>
       <div className='header-list_coach'>
         <p id='title1_coach'>Huấn luyện viên</p>

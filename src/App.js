@@ -5,15 +5,16 @@ import Footer from "./common/footer/Footer";
 import Home from './pages/Home/Home';
 import Fixtures from './pages/Fixtures/Fixtures';
 import Results from './pages/Results/Results';
-import Player from './pages/Player';
+import Player from './pages/FootballPLayer/Player';
 import Ranking from './pages/Ranking/Ranking';
-import Coach from './pages/Coach';
-import Club from './pages/club/Club';
+import Coach from './pages/CoachInfo/Coach';
+import Club from './pages/Club/Club1';
 import DetailFixtures from './pages/DetailFixtures/DetailFixtures'
 import DetailResult from './pages/Detail_Result/Detail_Result';
 import DetailClub from './pages/Detail_Club/Detail_Club';
 import DetailPlayer from './pages/DetailPlayer/DetailPlayer'
 import SignIn from './pages/Sign_In/SignIn'
+import DetailCoach from './pages/DetailCoach/DetailCoach';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path='/results/detailresults' element={<DetailResult />} />
         <Route path='/club/detailclub' element={<DetailClub />} />
         <Route path='/player/detailplayer' element={<DetailPlayer />} />
+        <Route path='/coach/detailcoach' element={<DetailCoach />} />
       </Routes>
       <Footer />
 
