@@ -1,24 +1,25 @@
-import React from 'react'
-import './HeaderDetail_Player.css'
-import cp from '../images/image 10.png'
-import hagl from '../images/hagl.png'
+import axios from 'axios';
+import React, { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom';
+import './Header.css'
+
 
 
 export default function Header() {
+  const location = useLocation();
+  const [player,] = useState(location.state.player);
+  
   return (
     <div className='header_detailplayer'>
-      <div className='img1'>
-          <img src={hagl} alt='hagl' style={{paddingTop:'100px'}} width='60px' height='170px' className='img' />
-      </div>
       <div className='img2'>
-          <img src={cp} alt='cp' width='300px' height='180px' className='img' />
+          <img src={'http://localhost:8000/'+player.AVATAR} alt='cp' width='300px' height='180px' className='img' />
       </div>
       <div className='info'>
-          <p>Nguyễn Công Phượng</p>
-          <p className='detail_player_role'>Tiền đạo</p>
+        <p>{player.HOTEN}</p>
+        <p className='detail_player_role'>{player.VITRI}</p>
       </div>
       <div className='numberbig'>
-          <p>10</p>
+        <p>{player.SOAO}</p>
       </div>
     </div>
   )

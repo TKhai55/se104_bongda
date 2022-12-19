@@ -44,15 +44,16 @@
     border-radius: 5px;
 }
 .quoctich{
-    flex:3;
+    flex:1;
     text-align: left;
     color:#DAD3D3;
-}.noidung{
+}
+.noidung{
     text-align: right;
     flex:1;
 }
 .pipe{
-    flex:0.5;
+    flex:0.3;
     text-align: right;
 }
 .styletitle{

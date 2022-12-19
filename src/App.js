@@ -33,8 +33,8 @@ function App() {
         <Route path='/fixtures/detailfixtures' element={<DetailFixtures />} />
         <Route path='/results/detailresults' element={<DetailResult />} />
         <Route path='/club/detailclub' element={<DetailClub />} />
-        <Route path='/player/detailplayer' element={<DetailPlayer />} />
-        <Route path='/coach/detailcoach' element={<DetailCoach />} />
+        <Route path='/player/detailplayer/:id' element={<DetailPlayer />} />
+        <Route path='/coach/detailcoach/:id' element={<DetailCoach />} />
       </Routes>
       <Footer />
 
